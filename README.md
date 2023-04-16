@@ -77,3 +77,5 @@ npm run dev
 ```
 http://127.0.0.1:5174/
 ```
+
+[Ссылка на видео функциональности](https://youtu.be/zwDjCwNTCVo)
