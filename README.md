@@ -1,4 +1,5 @@
 # Dashboard
+![Снимок экрана 2023-04-16 в 14 07 39](https://user-images.githubusercontent.com/16574140/232305423-08d5bc31-6ee6-4440-bc74-d658888ff04e.png)
 
 **Используемые технологии**
 
