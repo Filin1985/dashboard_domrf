@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    color: rgb(7, 40, 51);
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: start;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+}
+
+.container_none {
+  display: none;
+}

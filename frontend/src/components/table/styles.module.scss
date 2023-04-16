@@ -1,0 +1,42 @@
+%font__properties {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.table {
+  width: 100%;
+  max-width: 961px;
+  border: none;
+  margin: 10px 0;
+
+  &__head {
+    @extend %font__properties;
+    padding: 16px 0;
+    text-align: center;
+  }
+
+  &__row {
+    padding: 16px 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(66, 66, 66);
+    border-top: 1px solid rgba(128, 128, 128, 0.42);
+
+    &:first-of-type {
+      font-style: normal;
+      font-weight: 600;
+    }
+
+    &:last-of-type {
+      padding: 0;
+      cursor: pointer;
+    }
+  }
+
+  &__active {
+    font-weight: bold;
+    background-color: rgba(139, 197, 64, 0.2);
+  }
+}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: 10px;
+
+  &__charts {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+  }
+
+  &__table {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  &__title {
+    align-self: flex-start;
+  }
+}
