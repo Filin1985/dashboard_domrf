@@ -48,31 +48,41 @@ cd backend/domrf
 python3 manage.py migrate
 ```
 
-7. Запускаем backend
+7. Загружаем данные по квартирам
+
+```
+python manage.py loaddatatobase
+```
+
+```
+python manage.py loadregionstobase
+```
+
+8. Запускаем backend
 
 ```
 python3 manage.py runserver
 ```
 
-8. Заходим в папку с frontend
+9. Заходим в папку с frontend
 
 ```
 cd frontend/
 ```
 
-9. Устанавливаем необходимые пакеты npm
+10. Устанавливаем необходимые пакеты npm
 
 ```
 npm install
 ```
 
-10. Запускаем frontend
+11. Запускаем frontend
 
 ```
 npm run dev
 ```
 
-11. Открываем проект по адресу
+12. Открываем проект по адресу
 
 ```
 http://127.0.0.1:5174/
